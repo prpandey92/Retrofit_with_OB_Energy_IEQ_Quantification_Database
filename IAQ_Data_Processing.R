@@ -151,8 +151,8 @@ for (kera in seq(1,8,1))
     
   }
   
-  # Setting the Temperature if range is beyond normal Celsius Scale Range.
-  
+  # Setting the Temperature if range is beyond normal Celsius Scale Range. At very few instances,
+  # for some months the csv files records degrees F instead of degrees C. This code will change that. 
   
   
   for (i in seq(1,length(dataset),1))
